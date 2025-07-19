@@ -1,0 +1,29 @@
+{
+    
+    "alumno": [
+        {
+            "dni": "21487800",
+            "nombre": "Henry",
+            "apellido": "Taype",
+            "edad":"20"
+        },
+        {
+            "dni": "15019892",
+            "nombre": "Edson",
+            "apellido": "Quispe",
+            "edad":"21"
+        },
+        {
+            "dni": "25007833",
+            "nombre": "Franklin",
+            "apellido": "Condori",
+            "edad":"22" 
+        },
+        {
+            "dni": "25987812",
+            "nombre": "Jhon",
+            "apellido": "Condori",
+            "edad":"23" 
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo con efecto de galaxia y degradado */
+body {
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  color: #fff;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Título principal */
+.container h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #00f0ff;
+  text-shadow: 0 0 10px #00f0ff, 0 0 20px #0ff;
+}
+
+/* Contenedor de formularios */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Tarjetas con efecto vidrio y neón */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(0, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 30px;
+  width: 300px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 35px rgba(0, 255, 255, 0.6);
+  transform: scale(1.03);
+}
+
+/* Subtítulo */
+.card h2 {
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  color: #0ff;
+}
+
+/* Inputs */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: #1a1a1a;
+  color: #00f0ff;
+  font-size: 1em;
+  box-shadow: inset 0 0 10px #0ff;
+}
+
+/* Botones neón */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: transparent;
+  border: 2px solid #0ff;
+  color: #0ff;
+  font-size: 1em;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #0ff, inset 0 0 5px #0ff;
+}
+
+button:hover {
+  background-color: #0ff;
+  color: #000;
+  box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+/* Resultados */
+.resultado {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 0.95em;
+  word-wrap: break-word;
+}
+
+/* Botón de volver */
+body > div:last-of-type {
+  margin-top: 40px;
+}
